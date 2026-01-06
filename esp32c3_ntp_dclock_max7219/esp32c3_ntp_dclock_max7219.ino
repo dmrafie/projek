@@ -5,8 +5,8 @@
 #include <SPI.h>
 
 // WiFi Credentials
-const char* ssid     = "Poliwek 2";
-const char* password = "Pol1wek1u";
+const char* ssid     = "YOUR SSID HERE";
+const char* password = "YOUR PASSWORD HERE";
 
 // Hardware SPI for ESP32-C3 Super Mini
 #define HARDWARE_TYPE MD_MAX72XX::FC16_HW // Most common 8x32 modules
