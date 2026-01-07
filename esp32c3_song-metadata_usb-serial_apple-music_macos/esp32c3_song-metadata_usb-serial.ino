@@ -4,7 +4,14 @@
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 // Pins
-const int BTN_PP = 0, BTN_NEXT = 1, BTN_PREV = 2;
+const int BTN_PP = 0, BTN_NEXT = 1, BTN_PREV = 2; // Button Pins
+/*
+ESP32C3     LCD 20x4 I2C
+ 5V             VCC
+ GND            GND
+ GPIO8          SDA
+ GPIO9          SCL
+*/
 
 // State
 String title = "", artist = "", status = "", cmdMsg = "";
